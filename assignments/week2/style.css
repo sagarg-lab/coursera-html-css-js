@@ -1,14 +1,14 @@
-﻿* {
+* {
 box-positioning:border-box;
 }
 h1 {
 text-align: center;
-font-size: 500%;
+font-size: 250%;
 }
 .Chicken > h1,.Mutton > h1,.Fish > h1 {
 text-align:right;
 margin:0;
-font-size:400%;
+font-size:150%;
 }
 h1 span {
 background-color:pink
@@ -18,13 +18,19 @@ float:left;
 border: 5px solid black;
 background-color:grey;
 }
+@media (min-width:992px) {
+  clear:right;
+  }
+
+
+
 @media (min-width:768px) and (max-width:991px) {
 div.Fish{
 clear:left;
 }
 }
 @media (max-width:767px) {
-div.Fish {
+div.Fish,div.Mutton {
 clear:left;
 }
 }
