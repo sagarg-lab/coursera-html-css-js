@@ -19,16 +19,12 @@ float:left;
 border: 5px solid black;
 background-color:grey;
 }
-@media (min-width:992px) {
-  clear:right;
-  }
-
-
 
 @media (min-width:768px) and (max-width:991px) {
 div.Fish{
-width:100%
+
 clear:left;
+width:100%; 
 }
 div.Chicken,div.Mutton {
 width:50%;
