@@ -19,7 +19,7 @@ float:left;
 border: 5px solid black;
 background-color:grey;
 }
-/*@media (min-width) {
+/*@media (min-width:992px) {
 div.Chicken,div.Mutton,div.Fish {
 width:33%;
 float:left;
@@ -30,13 +30,17 @@ div.Fish{
 clear:left;
 width:100%; 
 }
-div.Chicken,div.Mutton {
+div.Chicken {
+float:left;
 width:50%;
 }
+div.Mutton {
+float:right;
+width:50%;
 }
 @media (max-width:767px) {
 div.Fish,div.Mutton,div.Chicken {
 width:100%
-clear:left;
+clear:both;
 }
 }
