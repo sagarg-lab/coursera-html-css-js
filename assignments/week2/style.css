@@ -14,6 +14,7 @@ h1 span {
 background-color:pink
 }
 div.Chicken,div.Mutton,div.Fish {
+width:30%
 float:left;
 border: 5px solid black;
 background-color:grey;
@@ -26,11 +27,16 @@ background-color:grey;
 
 @media (min-width:768px) and (max-width:991px) {
 div.Fish{
+width:100%
 clear:left;
+}
+div.Chicken,div.Mutton {
+width:50%;
 }
 }
 @media (max-width:767px) {
-div.Fish,div.Mutton {
+div.Fish,div.Mutton,div.Chicken {
+width:100%
 clear:left;
 }
 }
